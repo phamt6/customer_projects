@@ -1,0 +1,12 @@
+package_path: customers/debug
+javascript_compressor: closure
+compress_assets: false
+gzip_assets: true
+javascripts:
+    cubus_com_sv_customsegment:
+        - customer_projects/version.js
+        - customer_projects/header.js
+        - customer_projects/_utils/site.productParser.js
+        - customer_projects/cubus_com_sv/config/development.js
+        - customer_projects/cubus_com_sv/site.*.js
+        - customer_projects/footer.js
